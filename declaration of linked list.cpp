@@ -9,6 +9,9 @@ public:
     node(int val) {
         data = val;
         next = NULL;  // ?? Use NULL instead of nullptr
+
+
+        
     }
 };
 
@@ -56,4 +59,5 @@ int main() {
 
     return 0;
 }
+
 
